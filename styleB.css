@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+  }
+.p1B {
+    background-color: #eeeff2;
+    width: 100px;
+    height: 150px;
+    font-size: 40px;
+    border-left: 10px dotted #D0D0FF;
+    padding: 10px;
+    margin-left: 10px;
+}
+.p6B{
+    background-color: #eeeff2;
+    width: 100px;
+    height: 150px;
+    font-size: 40px;
+    border-left: 10px dotted #D0D0FF;
+    padding: 10px;
+    float: right;
+}
+.cntB{
+    display: flex;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+}
+.p1B:hover{
+    background-color: yellow;
+    cursor: pointer;
+    color: goldenrod;
+}
+.p6B:hover{
+    background-color: yellow;
+    cursor: pointer;
+    color: goldenrod;
+}
