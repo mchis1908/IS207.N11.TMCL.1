@@ -2,7 +2,13 @@ const button = document.createElement('button')
 button.innerText = 'Submit'
 
 button.id = 'mainButton'
-
+function validateForm() {
+    let x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}
 button.addEventListener('click', () => {
     let text = document.getElementById("textId").value;
         navigator.clipboard.writeText(text)
@@ -14,5 +20,6 @@ button.addEventListener('click', () => {
             alert('Error in changed text: ', err);
         });
   })
+
 
 document.body.appendChild(button)
