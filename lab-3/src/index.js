@@ -125,6 +125,7 @@ root.render(
 );
 
 //--------------------------------------------------------------------Ex1.2
+
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import MyList from './MyList';
@@ -152,7 +153,6 @@ setTimeout(() =>{
 
   render(appState);
 },1000);
-
 
 //--------------------------------------------------------------------Ex1.3
 import * as React from 'react';
@@ -242,7 +242,7 @@ const element = (
 );
 
 ReactDOM.render(element,document.getElementById('root'));
-*/
+
 //--------------------------------------------------------------------Ex4.2
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
@@ -258,4 +258,4 @@ const element = (
 );
 
 ReactDOM.render(element,document.getElementById('root'));
-
+*/
